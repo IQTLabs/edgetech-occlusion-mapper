@@ -1,4 +1,4 @@
-FROM node:16.17.1-alpine3.16 as build
+FROM node:20.2.0-alpine3.16 as build
 COPY client  /
 WORKDIR /client
 RUN ls
